@@ -1,6 +1,6 @@
 FROM python:3
 
-RUN pip install django==version
+RUN pip install django==5.0.6
 
 COPY . .
 
